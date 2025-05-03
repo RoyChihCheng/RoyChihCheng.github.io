@@ -1,0 +1,11 @@
+---
+title: "Recent Post"
+author: "Wang, (Roy) CHih-Cheng"
+date: "2025-05-02"
+categories: [code, analysis, r]
+image: "Postimage.jpg"
+---
+
+Analysis of vocabulary coversage of texts
+
+This is a project with the R code. You can find the project here and download the code to your own local directory from my [Github page](https://github.com/RoyChihCheng/Diff_Detector){target="_blank"}. Alternatively, you can find the working machine online [here](https://roylanguagetools.shinyapps.io/diff_dec/){target="_blank"}

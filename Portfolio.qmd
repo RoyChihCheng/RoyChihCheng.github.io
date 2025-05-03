@@ -1,0 +1,350 @@
+---
+title: "My Portfolio"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: false
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: true
+---
+
+```{=html}
+<style>
+/* Modern, professional CSS redesign - Refined for responsiveness */
+:root {
+  --primary: #2c5d9a;
+  --primary-light: #3a7bc8;
+  --secondary: #6d8b74;
+  --accent: #e7b75f;
+  --text: #333;
+  --text-light: #666;
+  --bg-light: #f8f9fa;
+  --border: #e0e0e0;
+  --success: #4caf50;
+}
+
+body {
+  font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  margin: 2em auto;
+  max-width: 1024px;
+  padding: 1.5em;
+  line-height: 1.65;
+  color: var(--text);
+  background-color: white;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 600;
+  margin-top: 1.6em;
+  color: var(--primary);
+}
+
+h1 {
+  font-size: 2.2em;
+  border-bottom: 2px solid var(--primary);
+  padding-bottom: 0.4em;
+  margin-top: 0;
+  margin-bottom: 1.2em;
+}
+
+h2 {
+  font-size: 1.6em;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.3em;
+  margin-bottom: 1em;
+}
+
+h3 {
+  font-size: 1.2em;
+  color: var(--primary-light);
+  margin-top: 1.2em;
+  margin-bottom: 0.8em;
+}
+
+section {
+  margin-bottom: 2em;
+}
+
+.bilingual-grid {
+  display: grid;
+  grid-template-columns: 1fr; /* Default to single column */
+  gap: 1em;
+  margin-bottom: 1.2em;
+  background-color: var(--bg-light);
+  border-radius: 6px;
+  padding: 1.2em;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+@media (min-width: 600px) { /* Adjust breakpoint for two columns */
+  .bilingual-grid {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* More flexible columns */
+    gap: 1.2em;
+  }
+
+  /* Optional: Remove border for a cleaner look when side-by-side */
+  .column:first-child {
+    border-right: none;
+    padding-right: 0;
+  }
+
+  .column:last-child {
+    padding-left: 0;
+  }
+}
+
+.column {
+  padding: 0.3em;
+  line-height: 1.6;
+}
+
+.work-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1em;
+  margin-bottom: 1.2em;
+}
+
+@media (min-width: 768px) {
+  .work-grid {
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 1.2em;
+  }
+}
+
+.work-entry {
+  margin-bottom: 1.2em;
+  border-left: 4px solid var(--accent);
+  padding: 1em;
+  background-color: white;
+  border-radius: 0 6px 6px 0;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.work-entry:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+.work-entry strong {
+  font-weight: 600;
+  color: var(--primary);
+  display: block;
+  margin-bottom: 0.2em;
+  font-size: 1em;
+}
+
+.work-entry em {
+  color: var(--text-light);
+  font-style: normal;
+  display: block;
+  margin-bottom: 0.6em;
+  font-size: 0.9em;
+}
+
+.award-entry {
+  display: flex;
+  margin-bottom: 0.8em;
+  align-items: center;
+}
+
+.award-icon {
+  margin-right: 0.8em;
+  color: var(--accent);
+  font-size: 1.3em;
+}
+
+.award-text {
+  flex: 1;
+  font-size: 0.95em;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 600px) {
+  body {
+    padding: 1em;
+  }
+
+  h1 {
+    font-size: 2em;
+    margin-bottom: 1em;
+  }
+
+  h2 {
+    font-size: 1.4em;
+    margin-bottom: 0.8em;
+  }
+
+  h3 {
+    font-size: 1.1em;
+    margin-bottom: 0.6em;
+  }
+
+  .bilingual-grid {
+    padding: 1em;
+    gap: 1em;
+  }
+
+  .column:first-child {
+    border-right: none;
+    padding-right: 0;
+  }
+
+  .column:last-child {
+    padding-left: 0;
+  }
+
+  .work-entry {
+    padding: 0.8em;
+    margin-bottom: 1em;
+  }
+}
+
+/* Print styles */
+@media print {
+  body {
+    padding: 0;
+    font-size: 11pt;
+  }
+
+  .bilingual-grid, .work-entry {
+    box-shadow: none;
+    page-break-inside: avoid;
+  }
+
+  h1 {
+    border-bottom: 1px solid var(--primary);
+  }
+
+  h2 {
+    border-bottom: 1px solid var(--border);
+  }
+}
+</style>
+```
+
+<section id="intro">
+
+<h2>自我介紹 \| Introduction</h2>
+
+I am a linguist and educator specializing in sociolinguistics and applied linguistics. Trained at the University of Edinburgh, I bridge theory and practice in English and Chinese language teaching. Based in Taiwan, I focus on curriculum design, pedagogy, and cross-linguistic communication.
+
+我是一位語言學家與教育人員，專長於社會語言學與應用語言學在語言教學的場域問題。2024 年於愛丁堡大學畢業後，我在台灣的語言課堂以及語言學習平台中結合理論與實務，擁有英語與中文教學經驗。現居台灣，專注於課程設計、教學法與跨語言溝通。
+
+</section>
+
+<section id="education">
+
+<h2>教育背景 \| Education</h2>
+
+-   MSc in Applied Linguistics \| The University of Edinburgh (2023 – 2024)
+
+    應用語言學碩士\| 愛丁堡大學 (2023 – 2024)
+
+-   BA in English \| National Central University (2019 – 2023)
+
+    英美文學系學士 \| 國立中央大學 (2019 – 2023)
+
+-   Certificate in Teaching Chinese as a Foreign Language (2023)
+
+    對外漢語教學課程修畢 (2023)
+
+</section>
+
+<section id="Qualification">
+
+<h2>證書 \| Qualitifications</h2>
+
+**TOEIC: 990**
+
+**IELTS: 8 (L8/ R9/ S7.5/ W7.5)**
+
+**TCSL (Teaching Chinese as a Second Language), MOE, ROC**
+
+</section>
+
+<section id="experience">
+
+<h2>工作經驗 \| Work Experience</h2>
+
+::: work-entry
+<strong>Research Assistant – Language Learning Websites</strong> <em>National Taiwan Normal University, Apr 2025</em> Developed and maintained English learning materials online. <strong>研究助理 – 英語學習網站</strong> <em>國立臺灣師範大學，2025年4月</em> 建置與維護英語教材網站。
+:::
+
+::: work-entry
+<strong>Mandarin Instructor – Summer Intensive Program</strong> <em>National Central University, Aug 2024</em> Taught academic Mandarin to Japanese students in an immersive setting. <strong>華語教師 – 暑期密集課程</strong> <em>國立中央大學，2024年8月</em> 教授日本學生學術華語，進行沉浸式教學。
+:::
+
+::: work-entry
+<strong>Research Assistant – Internet Language Project</strong> <em>National Central University, Aug 2022 – Aug 2023</em> Analyzed and translated internet slang; conducted literature reviews. <strong>研究助理 – 網路語言專案</strong> <em>國立中央大學，2022年8月 – 2023年8月</em> 分析網路語彙與應用，執行文獻回顧。
+:::
+
+::: work-entry
+<strong>Chinese TA – Project GO Summer Program</strong> <em>National Central University, Summer 2022 & 2023</em> Led drills for grammar and vocabulary; assisted students with daily life. <strong>華語助教 – Project GO 暑期計畫</strong> <em>國立中央大學，2022與2023年暑假</em> 帶領語法與詞彙練習，協助學生生活適應。
+:::
+
+::: work-entry
+<strong>Project Assistant – Voice ABC Project</strong> <em>National Central University, Sep 2020 – Jun 2022</em> Coached adult learners in English pronunciation and error correction. <strong>專案助理 – Voice ABC 計畫</strong> <em>國立中央大學，2020年9月 – 2022年6月</em> 指導成人改善英語發音與語言型偏誤、設計教材。
+:::
+
+::: work-entry
+<strong>English Teacher</strong> <em>Comma Classroom / Xiang Pin Tutoring, Nov 2021 – Aug 2023</em> Designed and taught customized lessons; evaluated mock exam essays. <strong>英文教師</strong> <em>逗點教室/ 向品私人補習班，2021年11月 – 2023年8月</em> 設計與教導個別化課程，批改高中模擬考作文。
+:::
+
+</section>
+
+<section id="research">
+
+<h2>研究計畫 \| 經費 Research Project & Grants</h2>
+
+::: bilingual-grid
+教育部教學實踐研究計畫 (Teaching Practice Research Grant)融入問題導向學習及語言專員共授到 EMI 課程以提升學生英語學術口說和自信<br> 林立岡 & 王智城 \| 中華民國教育部 \| 2024 \| NT\$500,000
+
+Integrating Problem-Based Learning and Language Specialists in EMI Courses to Improve Students' Academic Speaking and Confidence<br> Lin, L.-K. & Wang, C.-C. \| Ministry of Education, Taiwan \| 2024 \| NT\$500,000
+:::
+
+<h3>Conference Presentations</h3>
+
+::: bilingual-grid
+-   Wang, C.-C. (2025, Mar. 24). Language ideologies toward Taiwan’s 2030 Bilingual Policy: Online Perception and Realities on the Ground. Paper presented in Bilingual Matters Symposium 2025. Edinburgh, UK. (Virtual)
+
+-   Li, M.-Y. & Wang, C.-C. (2024, Nov 8). Japanese and English L1 learners’ Acquisition of Chinese Connective Device yinwei— a Learner Corpus-Based Study. Paper presented in The 14th World Conference on Chinese Language Teaching. Taitung, Taiwan.
+
+-   Liang, M.-Y., Wang, C.-C., & Li, S.N. (2024, Aug). Jing-Jing Style: Playful Stylization and Translingual Politics in Digital Discourse. Paper presented in EUROCALL 2024 Conference. Trnava, Slovakia (Virtual)
+
+-   Wang, C.-C. (2024). The Indexicality of Deference: The Chinese Second Person Pronoun Nin. Paper presented in the 7th International Symposium on Chinese Language and Discourse (ISCLD), Singapore.
+
+-   Wang, C.-C. (2024, April). Convergence of Differences? A Corpus-Based Variationist Linguistic (CVL) Study of Lexical Variation between Taiwanese Mandarin (TM) and Putonghua (PTH). Poster presented in Language Lunch in the University of Edinburgh, Edinburgh, UK.
+:::
+
+</section>
+
+<section id="awards">
+
+<h2>獎項 \| Awards</h2>
+
+::: bilingual-grid
+[🏆]{.award-icon} 高度評價畢業論文獎（愛丁堡大學 哲學、心理與語言科學院）2023/24
+
+Highly Commended Dissertation Award (University of Edinburgh, PPLS School) 2023/24
+
+[🏆]{.award-icon} 斐陶斐榮譽學會會員（中央大學 文學院）2023
+
+Phi Tau Phi Honor Society (College of Liberal Arts, National Central University) 2023
+
+[🏆]{.award-icon} 學海飛颺獎學金（中華民國教育部） 2022–23 \| NT\$96,000 MOE
+
+Study Abroad Scholarship (Ministry of Education, Taiwan) 2022–23 \| NT\$96,000
+
+[🏆]{.award-icon} 朱順一合勤獎學金（中央大學 文學院）2022–23 \| NT\$100,000
+
+Chu Shun-Yi and Coretronic Scholarship (College of Liberal Arts, NCU) 2022–23 \| NT\$100,000
+
+[🏆]{.award-icon} 書卷獎（中央大學 文學院，六次）2019–22 \| NT\$30,000
+
+Merit Scholarships (College of Liberal Arts, NCU – 6 times) 2019–22 \| NT\$30,000
+:::

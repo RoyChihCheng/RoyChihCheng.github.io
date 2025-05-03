@@ -1,0 +1,70 @@
+---
+title: "王智城 (Wang, Chih-ChengRoy)"
+subtitle: "應用語言學家 (Applied Linguist) | 語言教師 (Language Teacher)"
+image: My_photo.jpg
+about:
+  template: jolla
+  image-shape: round
+  links:
+    - icon: linkedin
+      text: Linkedin
+      href: https://www.linkedin.com/in/chih-cheng-wang/
+    - icon: instagram
+      text: Public Instagram
+      href: https://www.instagram.com/lingua_soc?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==
+    - icon: instagram
+      text: Personal Instagram
+      href: https://www.instagram.com/zhicheng_0731/?__pwa=1#
+    - icon: github
+      text: Github
+      href: https://github.com/RoyChihCheng
+format:
+  html:
+    css: styles.css
+    # (additional links excluded for brevity)
+---
+
+::: slideshow-container
+<img src="Pic_1.jpg" class="slide" style="display: block;"/> <img src="Pic_2.jpg" class="slide" style="display: none;"/> <img src="Pic_3.jpg" class="slide" style="display: none;"/> <img src="Pic_4.jpg" class="slide" style="display: none;"/> <img src="Pic_5.jpg" class="slide" style="display: none;"/>
+:::
+
+::: animated-heading
+👋 Hi there! Welcome to my site!
+:::
+
+```{=html}
+<script>
+  let slideIndex = 0;
+  const slides = document.getElementsByClassName("slide");
+
+  function showSlides() {
+    for (let i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) { slideIndex = 1; }
+    slides[slideIndex - 1].style.display = "block";
+    setTimeout(showSlides, 3000); // Change image every 3 seconds
+  }
+
+  window.onload = showSlides;
+</script>
+```
+
+::: section-title
+🧠 Research Interests
+:::
+
+Language Education
+
+Corpus & NLP in Applied Linguistics
+
+Sociolingusitics
+
+::: section-title
+📘 Recent Projects
+:::
+
+English Learning Platform
+
+Difficulty Measure tools
