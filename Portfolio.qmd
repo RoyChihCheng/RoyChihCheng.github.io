@@ -272,6 +272,14 @@ I am a linguist and educator specializing in sociolinguistics and applied lingui
 <h2>工作經驗 \| Work Experience</h2>
 
 ::: work-entry
+<strong> On-site/ Online Language Teacher </strong> <em> TKB YNSO, May 2025</em> Teaching English speaking, online courses, and TOEIC language test. <strong>英語老師</strong> <em>菁英語言教育中心，2025年5月</em> 教授英語口說、線上課程、多益考試。
+:::
+
+::: work-entry
+<strong> On-site/ Online Language Teacher </strong> <em> Elite Language Center, May 2025</em> Teaching English Reading, vocabulary, and online courses. <strong>英語老師</strong> <em>菁英語言教育中心，2025年5月</em> 教授英語閱讀、單字、以及線上教材。
+:::
+
+::: work-entry
 <strong>Research Assistant – Language Learning Websites</strong> <em>National Taiwan Normal University, Apr 2025</em> Developed and maintained English learning materials online. <strong>研究助理 – 英語學習網站</strong> <em>國立臺灣師範大學，2025年4月</em> 建置與維護英語教材網站。
 :::
 
