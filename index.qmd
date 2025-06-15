@@ -67,4 +67,4 @@ Sociolinguistics 社會語言學
 
 CoolEnglish English Learning Platform 酷英英語學習平台
 
-Difficulty Measure tools 閱讀複雜度評估器
+Reading Complexity & Difficulty Measure tools 閱讀複雜度評估器
