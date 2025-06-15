@@ -52,19 +52,19 @@ format:
 ```
 
 ::: section-title
-🧠 Research Interests
+🧠 Research Interests | 研究興趣
 :::
 
-Language Education
+Language Education 語言教育
 
-Corpus & NLP in Applied Linguistics
+Corpus & NLP in Applied Linguistics 應用語言學中語料庫及大語言處理應用
 
-Sociolingusitics
+Sociolinguistics 社會語言學
 
 ::: section-title
-📘 Recent Projects
+📘 Recent Projects | 最近專案計畫
 :::
 
-English Learning Platform
+CoolEnglish English Learning Platform 酷英英語學習平台
 
-Difficulty Measure tools
+Difficulty Measure tools 閱讀複雜度評估器
